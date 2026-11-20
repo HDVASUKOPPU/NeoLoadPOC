@@ -1,0 +1,78 @@
+<http-page executeResourcesDynamically="true"
+    forceEncodingForDynamicResources="false"
+    name="/us/en/api-commerce/session/get-session"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@launch @homepage/%resources%/recorded-artifacts/4f630a1b-68ea-4f5b-ae0e-3df161e23639.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="4f630a1b-68ea-4f5b-ae0e-3df161e23639">
+    <embedded-action>0e9d536d-d44f-43ca-8987-9c899a62401a</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_4f630a1b-68ea-4f5b-ae0e-3df161e23639.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/us/en/api-commerce/session/get-session"
+    path="/us/en/api-commerce/session/get-session" postType="6"
+    recordedArtifactZipFileName="team/vus/@launch @homepage/%resources%/recorded-artifacts/4f630a1b-68ea-4f5b-ae0e-3df161e23639.zip"
+    recordedResponseCode="200" responseSize="123"
+    serverUid="staging.harley-davidson.com" slaProfileEnabled="false"
+    uid="0e9d536d-d44f-43ca-8987-9c899a62401a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0e9d536d-d44f-43ca-8987-9c899a62401a</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0e9d536d-d44f-43ca-8987-9c899a62401a.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://staging.harley-davidson.com/us/en/index.html"/>
+    <header name="sec-ch-ua" value="&quot;Not-A.Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;157&quot;, &quot;Chromium&quot;;v=&quot;157&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="mbox=session%239e63da8f42f4bf9d5277a553b8612b50%231794924207%7CPC%2308c350bdd3a44c42671f34e8f00d4da1.34_0%231810474407%7Cversion%3D2.11.4; __cf_bm=ig2jXQFrnlxR0RPgYGVdYQB8cvP.NPPqHa8XdpyLV2U-1794922407.189471-1.0.1.1-TZUog5UlOwLMy1nXG6cRo6OiUUC1UMufpVSZGGsT.gLMU1EI6SeHvCdEDgJCnme3JeNKWQbhPaNHr99mcDEYMxMDkwXqgz3kGDHaBu4_nTcXvwDF7vps98mp0bIYzaGt; locale=en_US; language=en; country=US; cwpLocCountryLanguage=en_US"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 17 Nov 2026 13:33:28 GMT&#xd;
+content-type: application/json;charset=UTF-8&#xd;
+cf-ray: a5bf1b7df8ebefe7-IAD&#xd;
+cf-cache-status: DYNAMIC&#xd;
+access-control-allow-origin: *&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+content-encoding: gzip&#xd;
+expires: 0&#xd;
+server: cloudflare&#xd;
+set-cookie: anonymous-consents=%5B%5D; Max-Age=31536000; Expires=Wed, 17 Nov 2027 13:33:28 GMT; Path=/; Secure; HttpOnly&#xd;
+set-cookie: saveforlater=1e6e7dda-e647-4ce0-8aab-a615581124e0; Max-Age=360000000; Expires=Thu, 15 Apr 2038 05:33:28 GMT; Path=/; Secure; HttpOnly&#xd;
+set-cookie: JSESSIONID=Y0-7a594f78-2a3f-4730-b729-88df59cdc0da.accstorefront-65c647fb6-rxxq9; Path=/; Secure; HttpOnly; SameSite=Strict&#xd;
+set-cookie: ROUTE=.accstorefront-65c647fb6-rxxq9; Path=/; Secure; HttpOnly; SameSite=None&#xd;
+set-cookie: locale=en_US; expires=Tue, 17 Nov 2026 16:33:28 GMT; Path=/; domain=harley-davidson.com;&#xd;
+set-cookie: language=en; expires=Tue, 17 Nov 2026 16:33:28 GMT; Path=/; domain=harley-davidson.com;&#xd;
+set-cookie: country=us; expires=Tue, 17 Nov 2026 16:33:28 GMT; Path=/; domain=harley-davidson.com;&#xd;
+set-cookie: cwpLocCountryLanguage=en_US; expires=Tue, 17 Nov 2026 16:33:28 GMT; Path=/;domain=harley-davidson.com;&#xd;
+set-cookie: MGX_UC=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=.harley-davidson.com&#xd;
+set-cookie: MGX_UC=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=harley-davidson.com&#xd;
+set-cookie: MGX_UC=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=www.harley-davidson.com&#xd;
+strict-transport-security: max-age=31536000 ; includeSubDomains&#xd;
+vary: Accept-Encoding,User-Agent&#xd;
+pragma: no-cache&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-headers: x-requested-with, content-type&#xd;
+access-control-allow-methods: GET, POST, OPTIONS&#xd;
+access-control-max-age: 3600&#xd;
+x-sap-pad: 6837830&#xd;
+cf-locale: en_US; expires=Tue, 17 Nov 2026 16:33:28 GMT;&#xd;
+expect-ct: max-age=86400, enforce&#xd;
+referrer-policy: same-origin&#xd;
+x-content-type-options: nosniff&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+x-xss-protection: 1; mode=block&#xd;
+report-to: {"group":"cf-csp-endpoint","max_age":86400,"endpoints":[{"url":"https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=90EGcCoEAVmsJf1eD7MjHhGDvup4.xJykCCZyAiKHFo-1794922408.6341562-1.0.1.1-zuttGMhp8kxvTONlgivDlvHTX.FADZjZ5Ba3SDIHXj3XTMLfj8RbrxZoUkqPZmaodfs4oQ_QEqZ2oU3yiKNgd8yXepXRDQlA1SfFVxsxNNUAFh741_Oby.qoYFoOeIiEyeFowCoUAJ.n9QAXYo39mmJbIdBme1I5guogIkApNXvVtE3eQZuCsAs9RwTWhoB_"}]}&#xd;
+reporting-endpoints: cf-csp-endpoint="https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=90EGcCoEAVmsJf1eD7MjHhGDvup4.xJykCCZyAiKHFo-1794922408.6341562-1.0.1.1-zuttGMhp8kxvTONlgivDlvHTX.FADZjZ5Ba3SDIHXj3XTMLfj8RbrxZoUkqPZmaodfs4oQ_QEqZ2oU3yiKNgd8yXepXRDQlA1SfFVxsxNNUAFh741_Oby.qoYFoOeIiEyeFowCoUAJ.n9QAXYo39mmJbIdBme1I5guogIkApNXvVtE3eQZuCsAs9RwTWhoB_"&#xd;
+content-security-policy-report-only: script-src 'unsafe-inline' 'unsafe-eval'; report-uri https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=90EGcCoEAVmsJf1eD7MjHhGDvup4.xJykCCZyAiKHFo-1794922408.6341562-1.0.1.1-zuttGMhp8kxvTONlgivDlvHTX.FADZjZ5Ba3SDIHXj3XTMLfj8RbrxZoUkqPZmaodfs4oQ_QEqZ2oU3yiKNgd8yXepXRDQlA1SfFVxsxNNUAFh741_Oby.qoYFoOeIiEyeFowCoUAJ.n9QAXYo39mmJbIdBme1I5guogIkApNXvVtE3eQZuCsAs9RwTWhoB_; report-to cf-csp-endpoint&#xd;
+alt-svc: h3=":443"; ma=86400</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

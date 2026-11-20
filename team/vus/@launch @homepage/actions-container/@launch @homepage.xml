@@ -1,0 +1,15 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Launch Homepage" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="34dc127d-c814-4657-a469-3f359e648c11" weightsEnabled="false">
+    <weighted-embedded-action uid="0d902f44-b195-4eb3-b21a-915a4740211e"/>
+    <weighted-embedded-action uid="6bd25e07-0242-4786-963d-e1fa0142d027"/>
+    <weighted-embedded-action uid="4ac1aba1-7953-4588-b5fb-8c1634362c8a"/>
+    <weighted-embedded-action uid="4f630a1b-68ea-4f5b-ae0e-3df161e23639"/>
+    <weighted-embedded-action uid="1db9cbef-bbcf-4167-bea4-cea46f71ef9b"/>
+    <weighted-embedded-action uid="39f7d0ab-858a-4f2e-a955-5dc4aa763fe0"/>
+    <weighted-embedded-action uid="1f3ef734-452f-4404-8cf6-01816137ce80"/>
+    <weighted-embedded-action uid="cee69951-d7b9-4ff6-bc32-67f2b8887817"/>
+    <weighted-embedded-action uid="a1099e94-a06d-4ce7-bd43-48f6ffc48316"/>
+    <weighted-embedded-action uid="72ee418d-0108-48a3-b0d7-5a16f3deec49"/>
+</basic-logical-action-container>

@@ -1,0 +1,304 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/us/en/api-commerce/minicart/get-minicart_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@launch @homepage/%resources%/recorded-artifacts/39f7d0ab-858a-4f2e-a955-5dc4aa763fe0.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="39f7d0ab-858a-4f2e-a955-5dc4aa763fe0">
+    <embedded-action>c2a05617-fbf7-4c59-85bc-07ebc97d2ba2</embedded-action>
+    <embedded-action>04b90f2a-8732-4f82-b101-d7acfca913da</embedded-action>
+    <embedded-action>307f11e2-55d8-4131-ab73-56d9b272d743</embedded-action>
+    <embedded-action>1a254617-c478-47fa-bc37-b34d4862a4e9</embedded-action>
+    <embedded-action>5981b4b7-6f25-4200-9d4f-58d68437e076</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_39f7d0ab-858a-4f2e-a955-5dc4aa763fe0.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/us/en/api-commerce/minicart/get-minicart"
+    path="/us/en/api-commerce/minicart/get-minicart" postType="6"
+    recordedArtifactZipFileName="team/vus/@launch @homepage/%resources%/recorded-artifacts/39f7d0ab-858a-4f2e-a955-5dc4aa763fe0.zip"
+    recordedResponseCode="200" responseSize="219"
+    serverUid="staging.harley-davidson.com" slaProfileEnabled="false"
+    uid="c2a05617-fbf7-4c59-85bc-07ebc97d2ba2" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c2a05617-fbf7-4c59-85bc-07ebc97d2ba2</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c2a05617-fbf7-4c59-85bc-07ebc97d2ba2.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="1" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="SAP_JSESSIONID" regExp="set-cookie: JSESSIONID=([^;]+)"
+        regExpAdv="set-cookie: JSESSIONID=([^;]+)"
+        setDefaultValue="true" startsWithSimple="" template="$1$"
+        templateAdv="$1$" uid="3f0777e8-5542-401a-90f9-5bf3fec73706" xpath=""/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://staging.harley-davidson.com/us/en/index.html"/>
+    <header name="sec-ch-ua" value="&quot;Not-A.Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;157&quot;, &quot;Chromium&quot;;v=&quot;157&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="mbox=session%239e63da8f42f4bf9d5277a553b8612b50%231794924207%7CPC%2308c350bdd3a44c42671f34e8f00d4da1.34_0%231810474407%7Cversion%3D2.11.4; __cf_bm=ig2jXQFrnlxR0RPgYGVdYQB8cvP.NPPqHa8XdpyLV2U-1794922407.189471-1.0.1.1-TZUog5UlOwLMy1nXG6cRo6OiUUC1UMufpVSZGGsT.gLMU1EI6SeHvCdEDgJCnme3JeNKWQbhPaNHr99mcDEYMxMDkwXqgz3kGDHaBu4_nTcXvwDF7vps98mp0bIYzaGt; locale=en_US; language=en; country=US; cwpLocCountryLanguage=en_US"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 17 Nov 2026 13:33:28 GMT&#xd;
+content-type: application/json;charset=UTF-8&#xd;
+cf-ray: a5bf1b7e4a1befe7-IAD&#xd;
+cf-cache-status: DYNAMIC&#xd;
+access-control-allow-origin: *&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+content-encoding: gzip&#xd;
+expires: 0&#xd;
+server: cloudflare&#xd;
+set-cookie: anonymous-consents=%5B%5D; Max-Age=31536000; Expires=Wed, 17 Nov 2027 13:33:28 GMT; Path=/; Secure; HttpOnly&#xd;
+set-cookie: saveforlater=c4280647-c835-4842-acc7-93ec756268b9; Max-Age=360000000; Expires=Thu, 15 Apr 2038 05:33:28 GMT; Path=/; Secure; HttpOnly&#xd;
+set-cookie: JSESSIONID=Y0-0277e806-083d-4ab0-82ff-468fdaa4741b.accstorefront-65c647fb6-rxxq9; Path=/; Secure; HttpOnly; SameSite=Strict&#xd;
+set-cookie: ROUTE=.accstorefront-65c647fb6-rxxq9; Path=/; Secure; HttpOnly; SameSite=None&#xd;
+set-cookie: locale=en_US; expires=Tue, 17 Nov 2026 16:33:28 GMT; Path=/; domain=harley-davidson.com;&#xd;
+set-cookie: language=en; expires=Tue, 17 Nov 2026 16:33:28 GMT; Path=/; domain=harley-davidson.com;&#xd;
+set-cookie: country=us; expires=Tue, 17 Nov 2026 16:33:28 GMT; Path=/; domain=harley-davidson.com;&#xd;
+set-cookie: cwpLocCountryLanguage=en_US; expires=Tue, 17 Nov 2026 16:33:28 GMT; Path=/;domain=harley-davidson.com;&#xd;
+set-cookie: MGX_UC=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=.harley-davidson.com&#xd;
+set-cookie: MGX_UC=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=harley-davidson.com&#xd;
+set-cookie: MGX_UC=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=www.harley-davidson.com&#xd;
+strict-transport-security: max-age=31536000 ; includeSubDomains&#xd;
+vary: Accept-Encoding,User-Agent&#xd;
+pragma: no-cache&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-headers: x-requested-with, content-type&#xd;
+access-control-allow-methods: GET, POST, OPTIONS&#xd;
+access-control-max-age: 3600&#xd;
+x-sap-pad: 39851028&#xd;
+cf-locale: en_US; expires=Tue, 17 Nov 2026 16:33:28 GMT;&#xd;
+expect-ct: max-age=86400, enforce&#xd;
+referrer-policy: same-origin&#xd;
+x-content-type-options: nosniff&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+x-xss-protection: 1; mode=block&#xd;
+report-to: {"group":"cf-csp-endpoint","max_age":86400,"endpoints":[{"url":"https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=HB_KgwjTcp5roTrZcLuP9NnjgRb5DJtJZ.l1s32eoL8-1794922408.6878731-1.0.1.1-N_Up2w0RVYM3QZJyq8.rSJdO9Rz.vgQLCYGcjr0JXmIx091dQZpWCOT8kRDF_OgkGEw440dbARo1eWHdlLpj2TYCbQ06IxyR4uyegZD6eeakuer51tgrIqSxpkpClhx7KfKK18G.D9aO_31cmiAjbtz4fICAEoKBnXh1rVycmv8ooO_3J5vKAhE0Vlv1a3ZT"}]}&#xd;
+reporting-endpoints: cf-csp-endpoint="https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=HB_KgwjTcp5roTrZcLuP9NnjgRb5DJtJZ.l1s32eoL8-1794922408.6878731-1.0.1.1-N_Up2w0RVYM3QZJyq8.rSJdO9Rz.vgQLCYGcjr0JXmIx091dQZpWCOT8kRDF_OgkGEw440dbARo1eWHdlLpj2TYCbQ06IxyR4uyegZD6eeakuer51tgrIqSxpkpClhx7KfKK18G.D9aO_31cmiAjbtz4fICAEoKBnXh1rVycmv8ooO_3J5vKAhE0Vlv1a3ZT"&#xd;
+content-security-policy-report-only: script-src 'unsafe-inline' 'unsafe-eval'; connect-src 'none'; report-uri https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=HB_KgwjTcp5roTrZcLuP9NnjgRb5DJtJZ.l1s32eoL8-1794922408.6878731-1.0.1.1-N_Up2w0RVYM3QZJyq8.rSJdO9Rz.vgQLCYGcjr0JXmIx091dQZpWCOT8kRDF_OgkGEw440dbARo1eWHdlLpj2TYCbQ06IxyR4uyegZD6eeakuer51tgrIqSxpkpClhx7KfKK18G.D9aO_31cmiAjbtz4fICAEoKBnXh1rVycmv8ooO_3J5vKAhE0Vlv1a3ZT; report-to cf-csp-endpoint&#xd;
+alt-svc: h3=":443"; ma=86400</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/br/widget/global/nl5255rl"
+    path="/br/widget/global/nl5255rl" postType="6"
+    recordedArtifactZipFileName="team/vus/@launch @homepage/%resources%/recorded-artifacts/39f7d0ab-858a-4f2e-a955-5dc4aa763fe0.zip"
+    recordedResponseCode="404" responseSize="42"
+    serverUid="staging.harley-davidson.com" slaProfileEnabled="false"
+    uid="04b90f2a-8732-4f82-b101-d7acfca913da" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_04b90f2a-8732-4f82-b101-d7acfca913da</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_04b90f2a-8732-4f82-b101-d7acfca913da.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="domain_key"
+        recordRawValue="harley_davidson_en_products_online"
+        separator="=" value="harley_davidson_en_products_online" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="account_id"
+        recordRawValue="6720" separator="=" value="6720" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="fields"
+        recordRawValue="baseProductCode%2Ctitle%2Cname%2Curl%2CformattedName%2Cprice%2CpriceFormatted%2CpdpProductUrl%2Cname%2Cbadges%2Cpid%2CproductOptions%2CprimaryThumbnailUrl%2ChoverThumbnailUrl%2CaverageRating%2CnumberOfReviews%2CretailPrice%2CretailPriceFormatted%2CsuperCategoryCodes"
+        separator="="
+        value="baseProductCode,title,name,url,formattedName,price,priceFormatted,pdpProductUrl,name,badges,pid,productOptions,primaryThumbnailUrl,hoverThumbnailUrl,averageRating,numberOfReviews,retailPrice,retailPriceFormatted,superCategoryCodes" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="view_id"
+        recordRawValue="en_us" separator="=" value="en_us" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="url"
+        recordRawValue="https%3A%2F%2Fstaging.harley-davidson.com%2Fus%2Fen%2Findex.html"
+        separator="="
+        value="https://staging.harley-davidson.com/us/en/index.html" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="request_id"
+        recordRawValue="631970757285" separator="=" value="631970757285" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="_br_uid_2"
+        recordRawValue="undefined" separator="=" value="undefined" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://staging.harley-davidson.com/us/en/index.html"/>
+    <header name="sec-ch-ua" value="&quot;Not-A.Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;157&quot;, &quot;Chromium&quot;;v=&quot;157&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="mbox=session%239e63da8f42f4bf9d5277a553b8612b50%231794924207%7CPC%2308c350bdd3a44c42671f34e8f00d4da1.34_0%231810474407%7Cversion%3D2.11.4; __cf_bm=ig2jXQFrnlxR0RPgYGVdYQB8cvP.NPPqHa8XdpyLV2U-1794922407.189471-1.0.1.1-TZUog5UlOwLMy1nXG6cRo6OiUUC1UMufpVSZGGsT.gLMU1EI6SeHvCdEDgJCnme3JeNKWQbhPaNHr99mcDEYMxMDkwXqgz3kGDHaBu4_nTcXvwDF7vps98mp0bIYzaGt; locale=en_US; language=en; cwpLocCountryLanguage=en_US; locale=en-US; anonymous-consents=%5B%5D; ROUTE=.accstorefront-65c647fb6-rxxq9; country=us; saveforlater=c4280647-c835-4842-acc7-93ec756268b9; JSESSIONID=${SAP_JSESSIONID}"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0"/>
+    <responseHeaders>HTTP/2.0 404&#xd;
+date: Tue, 17 Nov 2026 13:33:28 GMT&#xd;
+content-type: application/json&#xd;
+cf-ray: a5bf1b7ebb58efe7-IAD&#xd;
+cf-cache-status: MISS&#xd;
+access-control-allow-origin: *&#xd;
+cache-control: max-age=600, s-maxage=600, stale-if-error=7776000, public&#xd;
+content-encoding: gzip&#xd;
+server: cloudflare&#xd;
+set-cookie: MGX_UC=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=.harley-davidson.com&#xd;
+set-cookie: MGX_UC=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=harley-davidson.com&#xd;
+set-cookie: MGX_UC=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=www.harley-davidson.com&#xd;
+vary: Origin, accept-encoding&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-headers: x-requested-with, content-type&#xd;
+access-control-allow-methods: GET, POST, OPTIONS&#xd;
+access-control-max-age: 3600&#xd;
+access-control-expose-headers: Content-Type, X-BR-Response-Time&#xd;
+expect-ct: max-age=86400, enforce&#xd;
+referrer-policy: same-origin&#xd;
+x-content-type-options: nosniff&#xd;
+x-envoy-upstream-service-time: 7&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+x-request-id: cb6d15f3-2ebf-4d4b-821b-3b711a505398&#xd;
+x-xss-protection: 1; mode=block&#xd;
+alt-svc: h3=":443"; ma=86400</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/vnd.microsoft.icon"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 28 May 2026 21:18:05 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/favicon.ico" path="/favicon.ico" postType="6"
+    recordedArtifactZipFileName="team/vus/@launch @homepage/%resources%/recorded-artifacts/39f7d0ab-858a-4f2e-a955-5dc4aa763fe0.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="staging.harley-davidson.com" slaProfileEnabled="false"
+    uid="307f11e2-55d8-4131-ab73-56d9b272d743" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_307f11e2-55d8-4131-ab73-56d9b272d743</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_307f11e2-55d8-4131-ab73-56d9b272d743.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://staging.harley-davidson.com/us/en/index.html"/>
+    <header name="sec-ch-ua" value="&quot;Not-A.Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;157&quot;, &quot;Chromium&quot;;v=&quot;157&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="mbox=session%239e63da8f42f4bf9d5277a553b8612b50%231794924207%7CPC%2308c350bdd3a44c42671f34e8f00d4da1.34_0%231810474407%7Cversion%3D2.11.4; __cf_bm=ig2jXQFrnlxR0RPgYGVdYQB8cvP.NPPqHa8XdpyLV2U-1794922407.189471-1.0.1.1-TZUog5UlOwLMy1nXG6cRo6OiUUC1UMufpVSZGGsT.gLMU1EI6SeHvCdEDgJCnme3JeNKWQbhPaNHr99mcDEYMxMDkwXqgz3kGDHaBu4_nTcXvwDF7vps98mp0bIYzaGt; locale=en_US; language=en; cwpLocCountryLanguage=en_US; locale=en-US; anonymous-consents=%5B%5D; ROUTE=.accstorefront-65c647fb6-rxxq9; country=us; saveforlater=c4280647-c835-4842-acc7-93ec756268b9; JSESSIONID=${SAP_JSESSIONID}"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 17 Nov 2026 13:33:28 GMT&#xd;
+content-type: image/vnd.microsoft.icon&#xd;
+cf-ray: a5bf1b7f6d82efe7-IAD&#xd;
+cf-cache-status: HIT&#xd;
+x-xss-protection: 1; mode=block&#xd;
+access-control-allow-origin: *&#xd;
+age: 582258&#xd;
+cache-control: s-maxage=604800, stale-if-error=604800&#xd;
+last-modified: Thu, 28 May 2026 21:18:05 GMT&#xd;
+server: cloudflare&#xd;
+set-cookie: locale=en_US; expires=Tue, 17 Nov 2026 16:33:28 GMT; Path=/; domain=harley-davidson.com;&#xd;
+set-cookie: language=en; expires=Tue, 17 Nov 2026 16:33:28 GMT; Path=/; domain=harley-davidson.com;&#xd;
+set-cookie: country=US; expires=Tue, 17 Nov 2026 16:33:28 GMT; Path=/; domain=harley-davidson.com;&#xd;
+set-cookie: cwpLocCountryLanguage=en_US; expires=Tue, 17 Nov 2026 16:33:28 GMT; Path=/;domain=harley-davidson.com;&#xd;
+set-cookie: MGX_UC=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=.harley-davidson.com&#xd;
+set-cookie: MGX_UC=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=harley-davidson.com&#xd;
+set-cookie: MGX_UC=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=www.harley-davidson.com&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-headers: x-requested-with, content-type&#xd;
+access-control-allow-methods: GET, POST, OPTIONS&#xd;
+access-control-max-age: 3600&#xd;
+content-md5: bgK8EtJYZ+YQ6U92SEnXEw==&#xd;
+cf-locale: en_US; expires=Tue, 17 Nov 2026 16:33:28 GMT;&#xd;
+expect-ct: max-age=86400, enforce&#xd;
+referrer-policy: same-origin&#xd;
+x-content-type-options: nosniff&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+x-ms-blob-type: BlockBlob&#xd;
+x-ms-lease-status: unlocked&#xd;
+x-ms-request-id: 3e0b6a9d-001e-00d2-08cb-6b36a1000000&#xd;
+x-ms-version: 2009-09-19&#xd;
+content-encoding: br&#xd;
+alt-svc: h3=":443"; ma=86400</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 05 Nov 2026 13:16:15 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/hd/qa/hd.com.js" path="/hd/qa/hd.com.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@launch @homepage/%resources%/recorded-artifacts/39f7d0ab-858a-4f2e-a955-5dc4aa763fe0.zip"
+    recordedResponseCode="200" responseSize="405202"
+    serverUid="login.harley-davidson.com" slaProfileEnabled="false"
+    uid="1a254617-c478-47fa-bc37-b34d4862a4e9" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_1a254617-c478-47fa-bc37-b34d4862a4e9</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1a254617-c478-47fa-bc37-b34d4862a4e9.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="sec-ch-ua" value="&quot;Not-A.Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;157&quot;, &quot;Chromium&quot;;v=&quot;157&quot;"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="locale=en_US; language=en; country=US; cwpLocCountryLanguage=en_US"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 17 Nov 2026 13:33:29 GMT&#xd;
+content-type: application/javascript&#xd;
+cf-ray: a5bf1b806842d6ec-IAD&#xd;
+cf-cache-status: HIT&#xd;
+set-cookie: __cf_bm=LSdGG3lZ2qcP3tCQwWxhbUB0A2W0bk7sIvsQrHpDkp8-1794922409.0232947-1.0.1.1-DIVUjWD5lJgATh1O_cocyf0w5Dl4wOatPdIWEplxEHZz9DkJXENkaGQhq8G9lgZKT73He8uIQudxmv3llOCwTHF2VncYdzL_bYH4ZXKXm5dSEdf4m1WLusYhaGopwAbi; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=login.harley-davidson.com; Expires=Tue, 17 Nov 2026 14:03:29 GMT&#xd;
+age: 1587&#xd;
+last-modified: Thu, 05 Nov 2026 13:16:15 GMT&#xd;
+server: cloudflare&#xd;
+vary: accept-encoding&#xd;
+content-md5: oZYR0dh9tXNTvJe5LEgemw==&#xd;
+x-ms-blob-type: BlockBlob&#xd;
+x-ms-lease-status: unlocked&#xd;
+x-ms-request-id: 6261b7af-901e-006c-1a2a-6d72c3000000&#xd;
+x-ms-version: 2009-09-19&#xd;
+content-encoding: br&#xd;
+alt-svc: h3=":443"; ma=86400</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/plain;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/hd/qa/countryToApiKey.esi"
+    path="/hd/qa/countryToApiKey.esi" postType="6"
+    recordedArtifactZipFileName="team/vus/@launch @homepage/%resources%/recorded-artifacts/39f7d0ab-858a-4f2e-a955-5dc4aa763fe0.zip"
+    recordedResponseCode="200" responseSize="488"
+    serverUid="login.harley-davidson.com" slaProfileEnabled="false"
+    uid="5981b4b7-6f25-4200-9d4f-58d68437e076" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_5981b4b7-6f25-4200-9d4f-58d68437e076</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5981b4b7-6f25-4200-9d4f-58d68437e076.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="sec-ch-ua" value="&quot;Not-A.Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;157&quot;, &quot;Chromium&quot;;v=&quot;157&quot;"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="locale=en_US; language=en; cwpLocCountryLanguage=en_US; country=US; __cf_bm=LSdGG3lZ2qcP3tCQwWxhbUB0A2W0bk7sIvsQrHpDkp8-1794922409.0232947-1.0.1.1-DIVUjWD5lJgATh1O_cocyf0w5Dl4wOatPdIWEplxEHZz9DkJXENkaGQhq8G9lgZKT73He8uIQudxmv3llOCwTHF2VncYdzL_bYH4ZXKXm5dSEdf4m1WLusYhaGopwAbi"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 17 Nov 2026 13:33:29 GMT&#xd;
+content-type: text/plain;charset=UTF-8&#xd;
+vary: accept-encoding&#xd;
+content-encoding: br&#xd;
+server: cloudflare&#xd;
+cf-ray: a5bf1b80b922d6ec-IAD&#xd;
+alt-svc: h3=":443"; ma=86400</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

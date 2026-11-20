@@ -1,0 +1,207 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/th"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@launch @homepage/%resources%/recorded-artifacts/72ee418d-0108-48a3-b0d7-5a16f3deec49.zip"
+    slaProfileEnabled="false" thinkTime="38"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="72ee418d-0108-48a3-b0d7-5a16f3deec49">
+    <embedded-action>9a3507a9-9ebd-4bc4-931b-871cc3836068</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_72ee418d-0108-48a3-b0d7-5a16f3deec49.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="image/gif;charset=utf-8"
+    eTag="3854735422475436032-4613676874142022256"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 19 Nov 2026 11:24:19 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/b/ss/hdglobaldev4/1/JS-2.26.0-LGU4/s63400111596439"
+    path="/b/ss/hdglobaldev4/1/JS-2.26.0-LGU4/s63400111596439"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@launch @homepage/%resources%/recorded-artifacts/72ee418d-0108-48a3-b0d7-5a16f3deec49.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="smetrics.harley-davidson.com" slaProfileEnabled="false"
+    uid="9a3507a9-9ebd-4bc4-931b-871cc3836068" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_9a3507a9-9ebd-4bc4-931b-871cc3836068.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_9a3507a9-9ebd-4bc4-931b-871cc3836068.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="AQB"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ndh"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pf"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="t"
+        recordRawValue="17%2F10%2F2026%2013%3A33%3A32%202%200"
+        separator="=" value="17/10/2026 13:33:32 2 0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="mid"
+        recordRawValue="80919769770680765904980832101620353540"
+        separator="=" value="80919769770680765904980832101620353540" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="aamlh"
+        recordRawValue="7" separator="=" value="7" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ce"
+        recordRawValue="UTF-8" separator="=" value="UTF-8" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pageName"
+        recordRawValue="%2Findex" separator="=" value="/index" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="g"
+        recordRawValue="https%3A%2F%2Fstaging.harley-davidson.com%2Fus%2Fen%2Findex.html"
+        separator="="
+        value="https://staging.harley-davidson.com/us/en/index.html" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="getNewRepeat"
+        recordRawValue="3.0.1" separator="=" value="3.0.1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="getPercentPageViewed" recordRawValue="5.0.2" separator="="
+        value="5.0.2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="handlePPVevents" recordRawValue="4.0" separator="="
+        value="4.0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="p_fo"
+        recordRawValue="3.0" separator="=" value="3.0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="getValOnce"
+        recordRawValue="3.0.1" separator="=" value="3.0.1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="getPageLoadTime" recordRawValue="2.0.2" separator="="
+        value="2.0.2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="performanceWriteFull" recordRawValue="1.0" separator="="
+        value="1.0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="performanceWritePart" recordRawValue="1.0" separator="="
+        value="1.0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="performanceCheck" recordRawValue="1.0" separator="="
+        value="1.0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="apl"
+        recordRawValue="4.0" separator="=" value="4.0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="inList"
+        recordRawValue="3.0" separator="=" value="3.0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="getTimeParting" recordRawValue="6.3" separator="="
+        value="6.3" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="di_session_id_ms" recordRawValue="0.00" separator="="
+        value="0.00" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="di_launch_lib_ms" recordRawValue="349.00" separator="="
+        value="349.00" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="di_session_id"
+        recordRawValue="di-1870816-C7149A7C8F6EAE88EB88AA1395BFCE7D68"
+        separator="="
+        value="di-1870816-C7149A7C8F6EAE88EB88AA1395BFCE7D68" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".c"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="cc"
+        recordRawValue="USD" separator="=" value="USD" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ch"
+        recordRawValue="%2Findex" separator="=" value="/index" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="events"
+        recordRawValue="event46%3D2.60" separator="="
+        value="event46=2.60" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="aamb"
+        recordRawValue="6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y"
+        separator="="
+        value="6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v1"
+        recordRawValue="%2Findex" separator="=" value="/index" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v2"
+        recordRawValue="%2Findex" separator="=" value="/index" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v11"
+        recordRawValue="2026%7C11%7C17%7C1%7CTuesday" separator="="
+        value="2026|11|17|1|Tuesday" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v15"
+        recordRawValue="logged%20out" separator="=" value="logged out" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c17"
+        recordRawValue="2.60" separator="=" value="2.60" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v22"
+        recordRawValue="us_en" separator="=" value="us_en" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v25"
+        recordRawValue="New" separator="=" value="New" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v27"
+        recordRawValue="D%3Dmid" separator="=" value="D=mid" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c29"
+        recordRawValue="undefined" separator="=" value="undefined" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c30"
+        recordRawValue="%7C" separator="=" value="|" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c35"
+        recordRawValue="Official%20Harley-Davidson%20Motorcycles%20%7C%20Harley-Davidson%20USA"
+        separator="="
+        value="Official Harley-Davidson Motorcycles | Harley-Davidson USA" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v53"
+        recordRawValue="H-D%20AEM" separator="=" value="H-D AEM" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c75"
+        recordRawValue="H-D.com%20AEM%20Redesign%7Cstaging%7C2026-11-09T19%3A02%3A20Z"
+        separator="="
+        value="H-D.com AEM Redesign|staging|2026-11-09T19:02:20Z" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v86"
+        recordRawValue="marketing%2Fhomepage" separator="="
+        value="marketing/homepage" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v99"
+        recordRawValue="https%3A%2F%2Fstaging.harley-davidson.com%2Fus%2Fen%2Findex.html"
+        separator="="
+        value="https://staging.harley-davidson.com/us/en/index.html" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v124"
+        recordRawValue="optin" separator="=" value="optin" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v125"
+        recordRawValue="optout" separator="=" value="optout" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v126"
+        recordRawValue="optout" separator="=" value="optout" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v127"
+        recordRawValue="optout" separator="=" value="optout" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v195"
+        recordRawValue="AA%20-%20Page%20Load%20Beacon" separator="="
+        value="AA - Page Load Beacon" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v200"
+        recordRawValue="0.5862264181227983_1794922412238" separator="="
+        value="0.5862264181227983_1794922412238" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="s"
+        recordRawValue="1280x800" separator="=" value="1280x800" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c"
+        recordRawValue="24" separator="=" value="24" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="j"
+        recordRawValue="1.6" separator="=" value="1.6" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="N" separator="=" value="N" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="k"
+        recordRawValue="N" separator="=" value="N" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="bw"
+        recordRawValue="1272" separator="=" value="1272" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="bh"
+        recordRawValue="676" separator="=" value="676" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="mcorgid"
+        recordRawValue="971A1C8B53295E220A490D4D%40AdobeOrg"
+        separator="=" value="971A1C8B53295E220A490D4D@AdobeOrg" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="AQE"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="sec-ch-ua" value="&quot;Not-A.Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge&quot;;v=&quot;157&quot;, &quot;Chromium&quot;;v=&quot;157&quot;"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="locale=en_US; language=en; cwpLocCountryLanguage=en_US; country=US; AMCV_971A1C8B53295E220A490D4D%40AdobeOrg=179643557%7CMCIDTS%7C20775%7CvVersion%7C5.5.0; mbox=session#42b7657646a74445999d591e178f0528#1794924270; __exponea_etc__=dbc395c1-3bcf-4f2c-a981-3f7bd0bfdadb; __exponea_time2__=0.00018858909606933594; s_ecid=MCMID%7C80919769770680765904980832101620353540; s_plt=1.68; s_nr30=1794922412109-New"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+access-control-allow-origin: *&#xd;
+date: Tue, 17 Nov 2026 13:33:32 GMT&#xd;
+expires: Mon, 16 Nov 2026 13:33:32 GMT&#xd;
+last-modified: Wed, 18 Nov 2026 13:33:32 GMT&#xd;
+cache-control: no-cache, no-store, max-age=0, no-transform, private&#xd;
+pragma: no-cache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-content-type-options: nosniff&#xd;
+p3p: CP="This is not a P3P policy"&#xd;
+server: jag&#xd;
+set-cookie: s_ecid=MCMID%7C80919769770680765904980832101620353540; Path=/; Domain=harley-davidson.com; Max-Age=63072000; Expires=Thu, 16 Nov 2028 13:33:33 GMT;&#xd;
+etag: 3854566530890694656-4613709523551835372&#xd;
+vary: *&#xd;
+content-type: image/gif;charset=utf-8&#xd;
+content-length: 43&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
